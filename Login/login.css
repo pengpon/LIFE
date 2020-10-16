@@ -1,0 +1,419 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+.container {
+	/*width: 960px;*/
+	margin: auto;
+	font-family:  'Open Sans', sans-serif;
+}
+
+
+img{
+	width: 100%;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*====手機設定======*/
+@media screen and (max-width: 767px) {
+
+
+		.header {
+				width: 80px;
+				margin: auto;		
+			}
+
+			button {
+				/*display: none;*/
+			}
+
+
+			button {
+				background-color: transparent;
+				border-radius: 4px;
+				border:1px solid transparent;
+				top: 1%;
+				float: left;
+				font-weight: 500;
+				font-size: 12px;
+				padding-left: 10px;
+	
+			}
+			
+			.ham_button {
+				width: 100%;
+				background-color: transparent;
+				/*background-color: white;*/
+				height: 60px;
+				position: fixed;
+				top: 0;
+				z-index: 1;
+				/*display: none;*/
+				/*border-bottom: 1px solid #ccc;*/
+			}
+
+
+			span{
+				width: 23px;
+				height: 2px;
+				display: block;
+				background-color: #000;
+				border-radius: 1px;
+				margin: 4px 0;
+			}
+
+
+			nav:after {
+				content: "";
+				display: block;
+				clear: both;
+			}
+
+				.menu {
+			background-image: url(nav-09.png);
+			background-position: top center;
+			background-size: contain;
+			background-repeat: repeat-x;
+			margin: auto;
+			/*position: relative;*/
+			/*position: fixed;*/
+			/*position: absolute;*/
+			top: 0;
+			
+			}
+			.ham {
+				width: 100%;
+				background-color: #ccc;
+				font-family: 'Open Sans', sans-serif;
+				position: fixed;
+				top: 0;
+				z-index: 2;
+				height: 1000px;
+				display: "";
+				/*display: none;*/
+				/*visibility:visible;*/
+			}
+
+
+
+			.ham img:first-child {
+				width: 24px;
+				/*margin: auto;*/
+				padding:0 10%;
+				position: absolute;
+				top: 2%;
+			} 
+
+			.main a {
+				display: block;
+				padding:8% 0;
+			}
+
+
+			.main {
+				/*width: 100%;*/
+			font-size: 25px;
+			margin: 15% auto;
+			/*margin:0 10%;*/
+			/*position: relative;*/
+			/*top: -50px;*/
+			}
+
+
+			.main ul li:first-child {
+				border-top: 1px solid #000;
+			}
+
+			.main li {
+				font-size: 20px;
+				display: block;
+				/*padding:8% 0;*/
+				text-align: center;
+				border-bottom: 1px solid #000;
+				/*line-height: 25px;*/
+			}
+
+			.sub li{
+				margin: 5% 0;
+				text-align: center;
+			}
+			 .sub ul{
+				font-size: 20px;
+				display: none;
+				margin: auto;
+				text-align: center;
+			}
+
+			.sub img {
+				width: 24px;
+				margin: auto;
+				padding:0 10%;
+			} 
+				
+			.web {
+				display: none;
+			}
+
+
+
+
+
+
+			/*=================*/
+
+			 
+			 .content {
+	width: 80%;
+	margin: auto;
+
+}
+.enter_content {
+	width: 96%;
+	margin: 2%;
+	height: 200px;
+	
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+}
+
+/*=====手機設定結束====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======平板以上設定====*/
+
+@media screen and (min-width: 768px){
+	
+			/*選單按鈕在平板以上螢幕 隱藏!*/
+		
+		
+			button, .ham img{
+			display: none;
+		}
+	
+
+		.menu {
+			margin: auto;
+			background-image: url(nav-small-12.png);
+			background-position: top center;
+			background-size: cover;
+			background-repeat: repeat-x;
+			position: relative;
+		}
+
+
+		.header {
+			width: 150px;			
+		}
+
+		.main {
+			font-size:25px;
+			margin:0 10%;
+			top: -40px;
+			position: relative;
+		}
+
+		.main  li{
+			width:24%;
+			text-align: center;
+		}
+
+
+		.menu .list li {
+			display: inline-block;
+			text-align: center;
+		}
+
+
+		.sub {
+			font-size: 15px;
+			position: absolute;
+			top: 40px;
+			right: 0;
+			width: 20%;
+		}
+
+		.sub li {
+			width: 25%;
+			margin: 0 1%;
+			
+		}
+
+
+		
+		.menu .main ul a:hover {
+			border-bottom: 3px solid #9ed3ef;
+		}
+
+		.ham {
+			display: none;
+		}
+
+
+
+.content {
+	width: 80%;
+	margin: auto;
+
+}
+.enter_content {
+	width: 46%;
+	margin: 2%;
+	height: 200px;
+	
+	float: left;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+/*======平板設定結束=====*/
+
+
+
+
+
+h2 {
+	font-size: 60px;
+	color: #da6d80;
+}
+
+.enter {
+	text-align: center;
+	font-size: 20px;
+	height: 50px;
+	width: 100%;
+	background-color: #edd27b;
+	border-radius: 10px;
+	margin: 5% 0;
+}
+
+
+
+
+form {
+	text-align: right;
+}
+
+
+.enter_content .btn {
+	font-size: 30px;
+	color: #000;
+	border-radius: 10px;
+	border-color: transparent;
+	background-color: #cfcfe5;
+	cursor: pointer;
+	margin: 2%;
+
+} 
+
+
+
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================Footer=======================*/
+
+.footer {
+	/*width: 960px;*/
+	width: 100%;
+	/*margin: 100px 0 20px;*/
+}
+
+.footer a{
+	display: block;
+	height: 50px;
+}
+
+.footer .logo {
+	width: 150px;
+	height: 50px;
+	background-size: cover;
+	margin: auto;
+	animation: footer 1s infinite;	
+}
+
+@keyframes footer{
+	0%  {background-image: url(frame_life_1.png);}
+	20% {background-image: url(frame_life_2.png);}
+	40% {background-image: url(frame_life_3.png);}
+	50% {background-image: url(frame_life_4.png);}
+	70% {background-image: url(frame_life_5.png);}
+	90% {background-image: url(frame_life_4.png);}
+	100%{background-image: url(frame_life_3.png);}	
+}
+
+
+.footer_txt {
+	text-align: center;
+	font-size: 15px;
+}
+

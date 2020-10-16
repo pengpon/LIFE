@@ -1,0 +1,576 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+
+
+
+.container {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	margin: auto;
+}
+
+
+img{
+	width: 100%;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*====手機設定======*/
+@media screen and (max-width: 767px) {
+
+
+				.header {
+				width: 80px;
+				margin: auto;		
+			}
+
+			button {
+				/*display: none;*/
+			}
+
+
+			button {
+				background-color: transparent;
+				border-radius: 4px;
+				border:1px solid transparent;
+				top: 1%;
+				float: left;
+				font-weight: 500;
+				font-size: 12px;
+				padding-left: 10px;
+	
+			}
+			
+			.ham_button {
+				width: 100%;
+				background-color: transparent;
+				/*background-color: white;*/
+				height: 60px;
+				position: fixed;
+				top: 0;
+				z-index: 1;
+				/*display: none;*/
+				/*border-bottom: 1px solid #ccc;*/
+			}
+
+
+			span{
+				width: 23px;
+				height: 2px;
+				display: block;
+				background-color: #000;
+				border-radius: 1px;
+				margin: 4px 0;
+			}
+
+
+			nav:after {
+				content: "";
+				display: block;
+				clear: both;
+			}
+
+
+			
+
+			.menu {
+			background-image: url(nav-09.png);
+			background-position: top center;
+			background-size: contain;
+			background-repeat: repeat-x;
+			margin: auto;
+			/*position: relative;*/
+			/*position: fixed;*/
+			/*position: absolute;*/
+			top: 0;
+			
+			}
+			.ham {
+				width: 100%;
+				background-color: #ccc;
+				font-family: 'Open Sans', sans-serif;
+				position: fixed;
+				top: 0;
+				z-index: 2;
+				height: 1000px;
+				display: "";
+				/*display: none;*/
+				/*visibility:visible;*/
+			}
+
+
+
+			.ham img:first-child {
+				width: 24px;
+				/*margin: auto;*/
+				padding:0 10%;
+				position: absolute;
+				top: 2%;
+			} 
+
+			.main a {
+				display: block;
+				padding:8% 0;
+			}
+
+
+			.main {
+				/*width: 100%;*/
+			font-size: 25px;
+			margin: 15% auto;
+			/*margin:0 10%;*/
+			/*position: relative;*/
+			/*top: -50px;*/
+			}
+
+
+			.main ul li:first-child {
+				border-top: 1px solid #000;
+			}
+
+			.main li {
+				font-size: 20px;
+				display: block;
+				/*padding:8% 0;*/
+				text-align: center;
+				border-bottom: 1px solid #000;
+				/*line-height: 25px;*/
+			}
+
+			.sub li{
+				margin: 5% 0;
+				text-align: center;
+			}
+			 .sub ul{
+				font-size: 20px;
+				display: none;
+				margin: auto;
+				text-align: center;
+			}
+
+			.sub img {
+				width: 24px;
+				margin: auto;
+				padding:0 10%;
+			} 
+				
+			.web {
+				display: none;
+			}
+			 
+			 .title{
+			 font-size: 25px;
+			}
+
+
+
+
+.content .sort{
+	width: 100%;
+	font-size: 17px;
+	display: none;
+}
+
+
+/*.content .sort_item ul {
+	float: right;
+	margin: auto;
+}
+*/
+.content .sort_item >ul {
+	/*float: left;*/
+	/*margin: auto;*/
+	/*box-sizing: border-box;*/
+	/*position: relative;*/
+	/*right: 0;*/
+	/*left: 0;*/
+	/*padding-right:10%;*/
+}
+
+.item_row div:nth-child(3){
+	display: none;
+}
+
+.item_pic {
+	width: 50%;
+	box-sizing: border-box;
+	padding:2%;
+	float: left;
+	margin: 3% 0;
+}
+
+
+.item_row {
+	overflow: hidden;
+}
+
+
+h2 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: 400;
+	display: none;
+
+}
+
+
+.footer {
+	/*display: none;*/
+}
+
+}
+
+/*=====手機設定結束====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======平板以上設定====*/
+
+@media screen and (min-width: 768px){
+	
+			/*選單按鈕在平板以上螢幕 隱藏!*/
+		button, .ham img{
+				display: none;
+		}
+
+
+		.container {
+			/*max-width: 1024px;*/
+			margin: auto;
+		}
+
+		.menu {
+			margin: auto;
+			background-image: url(nav-small-12.png);
+			background-position: top center;
+			background-size: cover;
+			background-repeat: repeat-x;
+			position: relative;
+		}
+
+
+		.header {
+			width: 150px;			
+		}
+
+		.main {
+			font-size:25px;
+			margin:0 10%;
+			top: -40px;
+			position: relative;
+		}
+
+		.main  li{
+			width:24%;
+			text-align: center;
+		}
+
+
+		.menu .list li {
+			display: inline-block;
+			text-align: center;
+		}
+
+
+		.sub {
+			font-size: 15px;
+			position: absolute;
+			top: 40px;
+			right: 0;
+			width: 20%;
+		}
+
+		.sub li {
+			width: 25%;
+			margin: 0 1%;
+			
+		}
+
+
+		
+		.menu .main ul a:hover {
+			border-bottom: 3px solid #9ed3ef;
+		}
+
+		.ham {
+			display: none;
+		}
+
+		/*=================================*/
+
+
+
+.content {
+	width: 80%;
+	/*max-width: 1024px;*/
+	margin: auto;
+}
+	.content .item_row  {
+	width: 100%;
+	margin: auto;
+	/*margin: 0 20px;*/
+	padding-top: 2%;
+	/*float: left;*/
+	overflow: hidden;
+}
+
+/*.content .item_row {
+	width: 780px;
+	margin: 50px 0 150px ;
+	overflow: hidden;
+}*/
+
+
+.sort {
+	width: 100%;
+	/*margin: auto;*/
+}
+
+
+.content .sort_item{
+	width: 80%;
+	margin: 0 20%;
+}
+
+
+.content .sort_item ul >li {
+	display: inline-block;
+	width: 150px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.content .sort_item ul {
+	float: left;
+	margin: auto;
+	/*box-sizing: border-box;*/
+	/*position: relative;*/
+	/*right: 0;*/
+	/*left: 0;*/
+	/*padding-right:10%;*/
+}
+
+
+.item_pic {
+	width: 33%;
+	margin: auto;
+	float: left;
+	padding:4%;
+	box-sizing: border-box;
+}
+
+
+h2 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #424242;
+}
+
+
+
+
+}
+
+
+
+
+/*======平板設定結束=====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================字體統一設定================*/
+
+
+
+/*=================================================*/
+
+
+
+/*===========================================*/
+
+
+
+
+
+
+/*===================統一字體設定================*/
+.content, .footer {
+	font-family: 'Open Sans', sans-serif;
+}
+/*============================================*/
+
+.clear:after  {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.content .sort {
+	font-size: 20px;
+	color: #424242;
+	font-weight: 200;
+}
+
+
+
+.content .sort_item ul li ul li {
+	font-size: 17px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+
+.content .sort_item ul ul li a:hover {
+	color:#3b73e2 
+}
+
+
+
+.content .sort_item {
+	display: none;
+}
+
+input {
+	visibility: hidden;
+}
+
+
+.content .check:checked +.sort_item {
+	display: block;
+}
+
+
+.content .sort_item ul >li {
+	display: inline-block;
+	/*width: 150px;*/
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+.content .item_pic .item_txt {
+	text-align: center;
+}
+
+
+.content .item_pic .item_txt >*{
+	margin: 10px 0;
+}
+
+
+.item_pic  img{
+ 	transition: 0.5s;
+}
+
+.item_pic:hover  img{
+ transform: rotate(20deg);
+ transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*======================Footer=======================*/
+
+.footer {
+	/*width: 960px;*/
+	width: 100%;
+	/*margin: 100px 0 20px;*/
+}
+
+.footer a{
+	display: block;
+	height: 50px;
+}
+
+.footer .logo {
+	width: 150px;
+	height: 50px;
+	background-size: cover;
+	margin: auto;
+	animation: footer 1s infinite;	
+}
+
+@keyframes footer{
+	0%  {background-image: url(frame_life_1.png);}
+	20% {background-image: url(frame_life_2.png);}
+	40% {background-image: url(frame_life_3.png);}
+	50% {background-image: url(frame_life_4.png);}
+	70% {background-image: url(frame_life_5.png);}
+	90% {background-image: url(frame_life_4.png);}
+	100%{background-image: url(frame_life_3.png);}	
+}
+
+
+.footer_txt {
+	text-align: center;
+	font-size: 15px;
+}
+

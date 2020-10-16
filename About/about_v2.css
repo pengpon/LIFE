@@ -1,0 +1,677 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+.container {
+	/*width: 960px;*/
+	margin: auto;
+	font-family:  'Open Sans', sans-serif;
+}
+
+
+img{
+	width: 100%;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+/*====手機設定======*/
+@media screen and (max-width: 767px) {
+
+
+			.header {
+				width: 80px;
+				margin: auto;		
+			}
+
+			button {
+				/*display: none;*/
+			}
+
+
+			button {
+				background-color: transparent;
+				border-radius: 4px;
+				border:1px solid transparent;
+				top: 1%;
+				float: left;
+				font-weight: 500;
+				font-size: 12px;
+				padding-left: 10px;
+	
+			}
+			
+			.ham_button {
+				width: 100%;
+				background-color: transparent;
+				/*background-color: white;*/
+				height: 60px;
+				position: fixed;
+				top: 0;
+				z-index: 1;
+				/*display: none;*/
+				/*border-bottom: 1px solid #ccc;*/
+			}
+
+
+			span{
+				width: 23px;
+				height: 2px;
+				display: block;
+				background-color: #000;
+				border-radius: 1px;
+				margin: 4px 0;
+			}
+
+
+			nav:after {
+				content: "";
+				display: block;
+				clear: both;
+			}
+
+				.menu {
+			background-image: url(nav-09.png);
+			background-position: top center;
+			background-size: contain;
+			background-repeat: repeat-x;
+			margin: auto;
+			/*position: relative;*/
+			/*position: fixed;*/
+			/*position: absolute;*/
+			top: 0;
+			
+			}
+			.ham {
+				width: 100%;
+				background-color: #ccc;
+				font-family: 'Open Sans', sans-serif;
+				position: fixed;
+				top: 0;
+				z-index: 2;
+				height: 1000px;
+				display: "";
+				/*display: none;*/
+				/*visibility:visible;*/
+			}
+
+
+
+			.ham img:first-child {
+				width: 24px;
+				/*margin: auto;*/
+				padding:0 10%;
+				position: absolute;
+				top: 2%;
+			} 
+
+			.main a {
+				display: block;
+				padding:8% 0;
+			}
+
+
+			.main {
+				/*width: 100%;*/
+			font-size: 25px;
+			margin: 15% auto;
+			/*margin:0 10%;*/
+			/*position: relative;*/
+			/*top: -50px;*/
+			}
+
+
+			.main ul li:first-child {
+				border-top: 1px solid #000;
+			}
+
+			.main li {
+				font-size: 20px;
+				display: block;
+				/*padding:8% 0;*/
+				text-align: center;
+				border-bottom: 1px solid #000;
+				/*line-height: 25px;*/
+			}
+
+			.sub li{
+				margin: 5% 0;
+				text-align: center;
+			}
+			 .sub ul{
+				font-size: 20px;
+				display: none;
+				margin: auto;
+				text-align: center;
+			}
+
+			.sub img {
+				width: 24px;
+				margin: auto;
+				padding:0 10%;
+			} 
+				
+			.web {
+				display: none;
+			}
+
+
+			 
+			 .title{
+			 font-size: 25px;
+			}
+
+
+	
+
+
+/*===============================*/
+
+.banner {
+	width: 100%;
+	position: relative;
+}
+
+.banner_pic {
+	width: 80%;
+	margin: auto;
+}
+
+/*
+.banner_txt {
+	width: 80%;
+	position: absolute;
+	top: 50%;
+
+}*/
+.banner_txt {
+	width: 80%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	top: 50%;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.banner_txt p{
+	color: #666464;
+}
+
+.banner_title {
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 2%;
+}
+
+
+.content {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	width: 80%;
+	margin: 5% auto;
+	text-align: justify;
+	line-height: 45px;
+}
+
+
+.book {
+	width: 50%;
+	float: left;
+
+}
+
+
+
+.other {
+	/*position: relative;*/
+	/*top: 50px;*/
+	/*width: 500px;*/
+	width: 100%;
+margin: 20% auto;
+float: left;
+top: 0;
+bottom: 0;
+}
+
+
+.button  {
+	width: 40%;
+	margin: 0 5%;
+	/*margin: ;*/
+	float: left;
+	/*position: absolute;*/
+	/*top: 50px;*/
+	/*width: 250px;*/
+	/*height: 100px;*/
+	/*border:1px solid #000;*/
+	/*float: left;*/
+	text-align: center;
+	font-family:  'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 22px;
+	color: #fff;
+	line-height: 90px;
+	
+}
+
+/*.buuton a{
+	width: 100%;
+	display: block;
+}*/
+
+
+
+.other .yellow {
+	background-color:rgba(233,194,72,0.9);
+
+}
+
+
+.other .red {
+	background-color: rgba(210,55,49,0.9);
+}
+
+
+.footer img {
+	display: none;
+}
+
+
+.footer {
+	
+	width: 100%;
+}
+
+
+.footer_txt {
+	color: #000;
+}
+
+}
+
+/*=====手機設定結束====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======平板以上設定====*/
+
+@media screen and (min-width: 768px){
+	
+			/*選單按鈕在平板以上螢幕 隱藏!*/
+		
+			button, .ham img{
+			display: none;
+		}
+	
+
+		.menu {
+			margin: auto;
+			background-image: url(nav-small-12.png);
+			background-position: top center;
+			background-size: cover;
+			background-repeat: repeat-x;
+			position: relative;
+		}
+
+
+		.header {
+			width: 150px;			
+		}
+
+		.main {
+			font-size:25px;
+			margin:0 10%;
+			top: -40px;
+			position: relative;
+		}
+
+		.main  li{
+			width:24%;
+			text-align: center;
+		}
+
+
+		.menu .list li {
+			display: inline-block;
+			text-align: center;
+		}
+
+
+		.sub {
+			font-size: 15px;
+			position: absolute;
+			top: 40px;
+			right: 0;
+			width: 20%;
+		}
+
+		.sub li {
+			width: 25%;
+			margin: 0 1%;
+			
+		}
+
+
+		
+		.menu .main ul a:hover {
+			border-bottom: 3px solid #9ed3ef;
+		}
+
+		.ham {
+			display: none;
+		}
+
+
+.other:after, .content:after , .banner:after {
+			content: "";
+			display: block;
+			clear: both;
+			height: 0;
+			/*visibility: hidden;*/
+		}
+
+.banner {
+	max-width: 1024px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.banner_pic {
+	/*max-width: 600px;*/
+	width: 50%;
+	float: left;
+
+}
+
+
+.banner_title {
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.banner_txt {
+	float: right;
+	width: 50%;
+	font-family:  'Open Sans', sans-serif;
+	font-size: 30px;
+	/*text-align: center;*/
+	/*width: 424px;*/
+	float: left;
+	position: absolute;
+	padding: 5%;
+	box-sizing: border-box;
+	top: 30%;
+	left: 50%;
+	/*left: -30px;*/
+}
+
+.banner p{
+	font-size: 20px;
+	text-align: left;
+	color: #666464;
+	background-color: #fff;
+	/*padding:20px;*/
+
+}
+
+
+
+.content {
+	font-family:  'Open Sans', sans-serif;
+	font-size: 20px;
+	/*line-height: 50px;*/
+	max-width: 1024px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	/*text-align: justify;*/
+}
+
+.content .item{
+	width: 60%;
+	/*height: 500px;*/
+	padding:5%;
+	box-sizing: border-box;
+	/*border:1px solid;*/
+	color: gray;
+	float: left;
+	line-height: 40px;
+	/*margin: auto;*/
+}
+
+
+.content .item p{
+	padding-top: 5%;
+}
+
+.content  {
+	margin-top: 10%;
+	position: relative;
+	/*border:6px solid rgba(210,55,49,0.7);*/
+}
+
+
+
+		.content  .yellow{
+			/*position: absolute;*/
+			/*position: relative;*/
+			/*top: 300px;*/
+			/*left: 50%;*/
+			/*left: 400px;*/
+			/*float: left;*/
+			/*border:6px solid rgba(233,194,72,0.7);*/
+			
+		}
+
+
+	.book {
+		/*position: relative;*/
+		/*bottom: -87px;*/
+		/*left: 20%;*/
+		/*top: 60%;*/
+		width: 40%;
+		float: left;
+		/*margin: auto;*/
+	}
+
+
+	.other {
+		/*position: relative;*/
+		/*top: 50px;*/
+		width: 80%;
+		margin: auto;
+	}
+
+
+	.button  {
+		/*position: absolute;*/
+		/*top: 50px;*/
+		/*width: 250px;*/
+		width: 30%;
+		margin: auto 10%;
+		height: 100px;
+		/*border:1px solid #000;*/
+		float: left;
+		text-align: center;
+		font-family:  'Open Sans', sans-serif;
+		font-weight: 800;
+		font-size: 40px;
+		color: #fff;
+		line-height: 90px;
+		
+	}
+
+
+
+
+
+	.other .yellow {
+		background-color:rgba(233,194,72,0.9);
+
+	}
+
+
+	.other .red {
+		background-color: rgba(210,55,49,0.9);
+	}
+
+	.footer{
+		position: relative;
+	}
+
+
+	.footer .logo {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 25%;
+		width: 150px;
+		height: 50px;
+		background-size: cover;
+		margin: auto;
+		animation: footer 1s infinite;	
+	}
+
+	.footer_txt {
+		top: 95%;
+		position: absolute;
+		text-align: center;
+		font-size: 15px;
+		color: #fff;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+
+	.footer .logo {
+		width: 150px;
+		height: 50px;
+		background-size: cover;
+		margin: auto;
+		animation: footer 1s infinite;	
+	}
+
+
+	.footer_txt {
+		text-align: center;
+		font-size: 15px;
+	}
+
+
+
+
+
+
+
+/*======平板設定結束=====*/
+
+
+
+
+
+}
+
+
+.content, .other, .footer {
+	margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+/*======================Footer=======================*/
+
+.footer {
+	/*width: 960px;*/
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	/*margin: 100px 0 20px;*/
+}
+
+.footer a{
+	display: block;
+	height: 50px;
+}
+
+.footer .logo {
+	width: 150px;
+	height: 50px;
+	background-size: cover;
+	margin: auto;
+	animation: footer 1s infinite;	
+}
+
+@keyframes footer{
+	0%  {background-image: url(frame_life_1.png);}
+	20% {background-image: url(frame_life_2.png);}
+	40% {background-image: url(frame_life_3.png);}
+	50% {background-image: url(frame_life_4.png);}
+	70% {background-image: url(frame_life_5.png);}
+	90% {background-image: url(frame_life_4.png);}
+	100%{background-image: url(frame_life_3.png);}	
+}
+
+
+.footer_txt {
+	text-align: center;
+	font-size: 15px;
+}    
+
+
+
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
